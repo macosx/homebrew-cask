@@ -1,12 +1,14 @@
 cask 'exodus' do
-  version '1.54.4'
-  sha256 'd70661dd461fcad9e9668749d2ad3130291f7fc99730f449d829e7831ad147bd'
+  version '18.12.26'
+  sha256 'dbcfb1313d3c901d661e7d8220688dae1e74b15f152225f2d7bbe9d2fba94645'
 
   # exodusbin.azureedge.net was verified as official when first introduced to the cask
   url "https://exodusbin.azureedge.net/releases/exodus-macos-#{version}.dmg"
   appcast 'https://www.exodus.io/releases/'
   name 'Exodus'
   homepage 'https://www.exodus.io/'
+
+  auto_updates true
 
   app 'Exodus.app'
 
