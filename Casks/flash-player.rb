@@ -1,6 +1,6 @@
 cask 'flash-player' do
-  version '32.0.0.101'
-  sha256 '1cc35e03dbd9f31349b23cb38fb7684a7a4d4ec5791953d997643d13431a8642'
+  version '32.0.0.142'
+  sha256 '8bdb8c1099fa2a4018748fb52b688d0bc8e6a021979a5eca20eadc8698f15e98'
 
   url "https://fpdownload.adobe.com/pub/flashplayer/updaters/#{version.major}/flashplayer_#{version.major}_sa.dmg"
   appcast 'https://fpdownload.adobe.com/pub/flashplayer/update/current/xml/version_en_mac_pl.xml'

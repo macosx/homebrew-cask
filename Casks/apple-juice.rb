@@ -1,6 +1,6 @@
 cask 'apple-juice' do
-  version '1.5.1'
-  sha256 '0a1056c816ec70b11627a23767ba71b187662372d67b771914035c3a3dbbb84d'
+  version '1.7.0'
+  sha256 '28b225ae147f1df83bfdf161c93c014e4f67587535c0d62556e17798aff3cfce'
 
   url "https://github.com/raphaelhanneken/apple-juice/releases/download/#{version}/Apple.Juice.dmg"
   appcast 'https://github.com/raphaelhanneken/apple-juice/releases.atom'
